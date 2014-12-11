@@ -15,7 +15,7 @@ class User
     @birthday
   end
   # Remember what attr_accessor does?
-  # Replace the reader and writer methods for name and birthday above with attribute accessors for each
+  # Replace the writer and reader methods for name and birthday above with attribute accessors for each
   # Now add attr_accessors for pokes, wall and favorites
 
   ALL_USERS = []
