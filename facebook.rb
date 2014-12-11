@@ -42,7 +42,7 @@ class User
     #write code that adds a wall_post (this should be a string) to another_user's wall
   end
 
-  def favorites(favorite)
+  def add_favorite(favorite)
     #write code to add a favorite to the user's list of favorites
   end
 
