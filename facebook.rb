@@ -1,7 +1,21 @@
 class User
-  attr_accessor :name, :birthday
+  def name=(name)
+    @name = name
+  end
+
+  def name
+    @name
+  end
+
+  def birthday=(birthday)
+    @birthday = birthday
+  end
+
+  def birthday
+    @birthday
+  end
   # Remember what attr_accessor does?
-  # Write out the reader and writer methods for name and birthday below
+  # Replace the reader and writer methods for name and birthday above with attribute accessors for each
 
   ALL_USERS = []
 
@@ -38,10 +52,10 @@ end
 
 # Make user_1 poke user_2
 
-# Make user_2 write on the wall user_3
+# Make user_2 write on user_3's wall
 
 # Add a favorite to user_2's list of favorites
 
-# Start up pry in your terminal and copy and paste all the code above. Then type User.all to see all of your users.
+# Start up pry in your terminal and copy and paste all the code above into it. Then type User.all to see all of your users (and the status of their walls, pokes and favorites).
 
 
