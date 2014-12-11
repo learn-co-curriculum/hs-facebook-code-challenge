@@ -16,6 +16,7 @@ class User
   end
   # Remember what attr_accessor does?
   # Replace the reader and writer methods for name and birthday above with attribute accessors for each
+  # Now add attr_accessors for pokes, wall and favorites
 
   ALL_USERS = []
 
@@ -56,6 +57,6 @@ end
 
 # Add a favorite to user_2's list of favorites
 
-# Start up pry in your terminal and copy and paste all the code above into it. Then type User.all to see all of your users (and the status of their walls, pokes and favorites).
+# Start up `pry` in your terminal and copy and paste all the code above into it. Then type `User.all` to see all of your users (and the status of their pokes, wall and favorites). While you are in `pry` try playing with your app some more - add more favorites, poke more users and make more wall posts!
 
 
