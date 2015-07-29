@@ -1,9 +1,4 @@
----
-  tags: object orientation, kids, ruby, OO  
-  languages: ruby
-  level: 2
-  type: code challenge
----
+
 
 ## Create your own Facebook
 
