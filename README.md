@@ -9,4 +9,4 @@ If you need some help getting started try coding along with this <a href="http:/
 Fork and clone this lab and follow along with the instructions in facebook.rb.
 
 
-<a href='https://learn.co/lessons/hs-facebook-code-challenge' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/hs-facebook-code-challenge' title='Create your own Facebook'>Create your own Facebook</a> on Learn.co and start learning to code for free.</p>
